@@ -1,4 +1,4 @@
-# Understanding the output of MobileNetv2
+# Understanding the output of Keras Models
 ### Outline of the Process
 
   - The GCAM method helps to analyse which part the model is focussing while making a prediction
