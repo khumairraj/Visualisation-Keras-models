@@ -1,0 +1,10 @@
+{
+	"sourceclasslabel": 		"imagenet", 
+	"sourcemodel": 				"imagenet", 
+	"readtypeofmodel" :			"plain",
+	"whethermodelmodified": 	0, 
+	"imgfolderpath": 			".\\sample",
+	"savepath" : 				".\\analyse_results",
+	"penultimate_layer_names" :	["block_2_expand", "block_9_expand", "Conv_1"],
+	"topNclass" : 2
+}

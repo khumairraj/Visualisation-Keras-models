@@ -1,0 +1,157 @@
+  0 input_1   
+  1 Conv1_pad 
+  2 Conv1     
+  3 bn_Conv1  
+  4 Conv1_relu
+  5 expanded_conv_depthwise
+  6 expanded_conv_depthwise_BN
+  7 expanded_conv_depthwise_relu
+  8 expanded_conv_project
+  9 expanded_conv_project_BN
+ 10 block_1_expand
+ 11 block_1_expand_BN
+ 12 block_1_expand_relu
+ 13 block_1_pad
+ 14 block_1_depthwise
+ 15 block_1_depthwise_BN
+ 16 block_1_depthwise_relu
+ 17 block_1_project
+ 18 block_1_project_BN
+ 19 block_2_expand
+ 20 block_2_expand_BN
+ 21 block_2_expand_relu
+ 22 block_2_depthwise
+ 23 block_2_depthwise_BN
+ 24 block_2_depthwise_relu
+ 25 block_2_project
+ 26 block_2_project_BN
+ 27 block_2_add
+ 28 block_3_expand
+ 29 block_3_expand_BN
+ 30 block_3_expand_relu
+ 31 block_3_pad
+ 32 block_3_depthwise
+ 33 block_3_depthwise_BN
+ 34 block_3_depthwise_relu
+ 35 block_3_project
+ 36 block_3_project_BN
+ 37 block_4_expand
+ 38 block_4_expand_BN
+ 39 block_4_expand_relu
+ 40 block_4_depthwise
+ 41 block_4_depthwise_BN
+ 42 block_4_depthwise_relu
+ 43 block_4_project
+ 44 block_4_project_BN
+ 45 block_4_add
+ 46 block_5_expand
+ 47 block_5_expand_BN
+ 48 block_5_expand_relu
+ 49 block_5_depthwise
+ 50 block_5_depthwise_BN
+ 51 block_5_depthwise_relu
+ 52 block_5_project
+ 53 block_5_project_BN
+ 54 block_5_add
+ 55 block_6_expand
+ 56 block_6_expand_BN
+ 57 block_6_expand_relu
+ 58 block_6_pad
+ 59 block_6_depthwise
+ 60 block_6_depthwise_BN
+ 61 block_6_depthwise_relu
+ 62 block_6_project
+ 63 block_6_project_BN
+ 64 block_7_expand
+ 65 block_7_expand_BN
+ 66 block_7_expand_relu
+ 67 block_7_depthwise
+ 68 block_7_depthwise_BN
+ 69 block_7_depthwise_relu
+ 70 block_7_project
+ 71 block_7_project_BN
+ 72 block_7_add
+ 73 block_8_expand
+ 74 block_8_expand_BN
+ 75 block_8_expand_relu
+ 76 block_8_depthwise
+ 77 block_8_depthwise_BN
+ 78 block_8_depthwise_relu
+ 79 block_8_project
+ 80 block_8_project_BN
+ 81 block_8_add
+ 82 block_9_expand
+ 83 block_9_expand_BN
+ 84 block_9_expand_relu
+ 85 block_9_depthwise
+ 86 block_9_depthwise_BN
+ 87 block_9_depthwise_relu
+ 88 block_9_project
+ 89 block_9_project_BN
+ 90 block_9_add
+ 91 block_10_expand
+ 92 block_10_expand_BN
+ 93 block_10_expand_relu
+ 94 block_10_depthwise
+ 95 block_10_depthwise_BN
+ 96 block_10_depthwise_relu
+ 97 block_10_project
+ 98 block_10_project_BN
+ 99 block_11_expand
+100 block_11_expand_BN
+101 block_11_expand_relu
+102 block_11_depthwise
+103 block_11_depthwise_BN
+104 block_11_depthwise_relu
+105 block_11_project
+106 block_11_project_BN
+107 block_11_add
+108 block_12_expand
+109 block_12_expand_BN
+110 block_12_expand_relu
+111 block_12_depthwise
+112 block_12_depthwise_BN
+113 block_12_depthwise_relu
+114 block_12_project
+115 block_12_project_BN
+116 block_12_add
+117 block_13_expand
+118 block_13_expand_BN
+119 block_13_expand_relu
+120 block_13_pad
+121 block_13_depthwise
+122 block_13_depthwise_BN
+123 block_13_depthwise_relu
+124 block_13_project
+125 block_13_project_BN
+126 block_14_expand
+127 block_14_expand_BN
+128 block_14_expand_relu
+129 block_14_depthwise
+130 block_14_depthwise_BN
+131 block_14_depthwise_relu
+132 block_14_project
+133 block_14_project_BN
+134 block_14_add
+135 block_15_expand
+136 block_15_expand_BN
+137 block_15_expand_relu
+138 block_15_depthwise
+139 block_15_depthwise_BN
+140 block_15_depthwise_relu
+141 block_15_project
+142 block_15_project_BN
+143 block_15_add
+144 block_16_expand
+145 block_16_expand_BN
+146 block_16_expand_relu
+147 block_16_depthwise
+148 block_16_depthwise_BN
+149 block_16_depthwise_relu
+150 block_16_project
+151 block_16_project_BN
+152 Conv_1    
+153 Conv_1_bn 
+154 out_relu  
+155 global_average_pooling2d_1
+156 Logits    
